@@ -1,6 +1,6 @@
-# Frontend Mentor - Password generated app solution
+# Frontend Mentor - Password generator app solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Password generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Here is my repos](https://github.com/Jerems412Dev/social-links-profile-main-challenge)
+- Solution URL: [Here is my repos](https://github.com/Jerems412Dev/Password-generator-app)
 - Live Site URL: [Here is the site url](https://social-links-profile-main-jerems.vercel.app/)
 
 ## My process
@@ -37,7 +37,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
+- CSS FLEX
 - Mobile-first workflow
+- Tablet
+- MouseDown, MouseMove and MouseUp
 
 
 ## Author
