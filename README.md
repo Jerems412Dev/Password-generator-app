@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screen.jpg)
+![](preview.jpg)
 
 
 ### Links
