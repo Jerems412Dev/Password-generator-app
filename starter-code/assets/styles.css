@@ -75,6 +75,7 @@
         grid-column: 3;
         grid-row: 3;
         grid-template-columns: 32% auto 32%;
+        grid-template-rows: 5% auto 5%;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -91,6 +92,7 @@
         place-items: center;
         gap: 4%;
     }
+
 }
 
 .container h3 {
@@ -331,4 +333,20 @@
         }
     }
     
+}
+
+.container .attribution {
+    width: 100%;
+    display: flex;
+    color: var(--base-color-white);
+    font-size: 11px; 
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+    a { 
+        text-decoration: none;
+        color: var(--base-color-green); 
+        white-space: nowrap;
+    }
 }
