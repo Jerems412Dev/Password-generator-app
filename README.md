@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Here is my repos](https://github.com/Jerems412Dev/Password-generator-app)
-- Live Site URL: [Here is the site url](https://social-links-profile-main-jerems.vercel.app/)
+- Live Site URL: [Here is the site url](https://password-generator-app-henna-ten.vercel.app/)
 
 ## My process
 
