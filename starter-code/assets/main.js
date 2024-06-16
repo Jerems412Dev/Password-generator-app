@@ -60,7 +60,7 @@ btn_span.addEventListener('touchstart', (e) => {
 const onTouchMove = (e) => {
     if (!isDragging) return;
     const rect = range.getBoundingClientRect();
-    let offsetX = e.clientX - rect.left;    
+    let offsetX = e.touches[0].clientX - rect.left;    
     if (offsetX < 0) offsetX = 0;
     if (offsetX > rect.width) offsetX = rect.width;
     btn_span.style.left = `${offsetX}px`; 
