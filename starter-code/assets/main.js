@@ -34,12 +34,13 @@ btn_span.addEventListener('mousedown', (e) => {
 const onMouseMove = (e) => {
     if (!isDragging) return;
     const rect = range.getBoundingClientRect();
-    let offsetX = e.clientX - rect.left;    
+    let offsetX = e.clientX - rect.left;   
+    let rectWidth = rect.width -25; 
     if (offsetX < 0) offsetX = 0;
-    if (offsetX > rect.width) offsetX = rect.width;
+    if (offsetX > rectWidth) offsetX = rectWidth;
     btn_span.style.left = `${offsetX}px`; 
     range_span.style.width = `${offsetX}px`; 
-    const rangeValue = parseInt((offsetX / rect.width) * 20);
+    const rangeValue = parseInt((offsetX / rectWidth) * 20);
     characterLengthNumber.innerText = `${rangeValue}`;
 };
   
@@ -60,12 +61,13 @@ btn_span.addEventListener('touchstart', (e) => {
 const onTouchMove = (e) => {
     if (!isDragging) return;
     const rect = range.getBoundingClientRect();
-    let offsetX = e.touches[0].clientX - rect.left;    
+    let offsetX = e.touches[0].clientX - rect.left;  
+    let rectWidth = rect.width -25;  
     if (offsetX < 0) offsetX = 0;
-    if (offsetX > rect.width) offsetX = rect.width;
+    if (offsetX > rectWidth) offsetX = rectWidth;
     btn_span.style.left = `${offsetX}px`; 
     range_span.style.width = `${offsetX}px`; 
-    const rangeValue = parseInt((offsetX / rect.width) * 20);
+    const rangeValue = parseInt((offsetX / rectWidth) * 20);
     characterLengthNumber.innerText = `${rangeValue}`;
 };
   
