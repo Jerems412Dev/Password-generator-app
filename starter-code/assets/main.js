@@ -53,11 +53,13 @@ const onMouseUp = () => {
 range.addEventListener("click", (e) => {
   const rect = range.getBoundingClientRect();
   let offsetX = e.clientX - rect.left;
-  let rectWidth = rect.width - 10;
+  let rectWidth = rect.width -25; 
   if (offsetX < 0) offsetX = 0;
   if (offsetX > rectWidth) offsetX = rectWidth;
-  btn_span.style.left = `${offsetX}px`;
-  range_span.style.width = `${offsetX}px`;
+  btn_span.style.left = `${offsetX}px`; 
+  range_span.style.width = `${offsetX}px`; 
+  const rangeValue = parseInt((offsetX / rectWidth) * 20);
+  characterLengthNumber.innerText = `${rangeValue}`;
 });
 
 //for mobile and tablet range
